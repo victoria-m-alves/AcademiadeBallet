@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4787/4787435.png">
+    <link rel="stylesheet" href="assets/css/matricula.css">
+   
+    <title>Matrícula</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Matricule-se</h1>
+                    </div>
+                   
+                </div>
+<form action="matriculado.html" id="form">
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome</label>
+                        <input  id="name" type="text" name="firstname" placeholder="Digite o nome do aluno" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="idade">Idade</label>
+                        <input id="idade" type="number" name="idade" placeholder="Digite a idade do aluno" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="mother">*Nome da mãe</label> 
+                        <input id="mother" type="text" name="mother" placeholder="Digite o nome da mãe" >
+                    </div>
+                    <div class="input-box">
+                        <label for="dad">*Nome do pai</label> 
+                        <input id="dad" type="text" name="dadr" placeholder="Digite o nome do pai" >
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+                    <div class="obs">
+                        <label for="#">Informações com * na frente sâo obrigatórias apenas para alunos com menos de 18 anos</label>
+                    </div>
+        
+                </div>
+              
+                <div class="turma-inputs">
+                    <div class="turma-title">
+                        <h6>Turma</h6>
+                    </div>
+
+                    
+                    <div class="turma-group" aria-required="true">
+                        <div class="turma-input">
+                            <input id="babyclass" type="radio" name="turma">
+                            <label for="babyclass">Babyclass</label>
+                        </div>
+                        <div class="turma-input">
+                            <input id="infantil" type="radio" name="turma">
+                            <label for="infantil">Infantil</label>
+                        </div>
+                        <div class="turma-input">
+                            <input id="juvenil" type="radio" name="turma">
+                            <label for="juvenil">Juvenil</label>
+                        </div>
+                        <div class="turma-input">
+                            <input id="adulto" type="radio" name="turma">
+                            <label for="adulto">Adulto</label>
+                        </div>
+
+                    
+                    </div>
+                </div>
+                <div class="nivel-inputs">
+                    <div class="nivel-title">
+                        <h6>Nivel</h6>
+                    </div>
+
+                    <div class="nivel-group" requi>
+                        <div class="nivel-input">
+                            <input id="iniciante" type="radio" name="nivel">
+                            <label for="iniciante">Iniciante</label>
+                        </div>
+                        <div class="nivel-input">
+                            <input id="intermediario" type="radio" name="nivel">
+                            <label for="intermediario">Intermediário</label>
+                        </div>
+                        <div class="nivel-input">
+                            <input id="avancado" type="radio" name="nivel">
+                            <label for="avancado">Avançado</label>
+                        </div>
+                </div>
+                
+                 
+                    <button  type="submit" disabled="disabled">Continuar</button>
+                
+                   
+            </form>
+
+                <div class="continue-button">
+                  
+                <button><a href="home.html">Voltar</a></button>
+                </div>
+           
+            </form>
+         
+        </div>
+    </div>
+   <script type="text/javascript" src="matricula.js"></script>
+  
+</body>
+
+</html>

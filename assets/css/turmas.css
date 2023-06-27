@@ -1,0 +1,511 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: rgba(245, 149, 184, 0.5);
+    background-image: url(../img/turmas.jpg) ;
+    background-image: cover;
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;}
+   
+    header {
+        width: 100%;
+        height: 5vh;
+        background-color: rgba(246, 145, 157, 0.322);
+    }
+    
+    .menu-content {
+        text-transform: uppercase;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.8rem;
+    }
+    
+    .logo {
+        font-size: 1.8rem;
+        letter-spacing: 0.4rem;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .menu-content .list-itens {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+    }
+    
+    .menu-content .list-itens a {
+        text-decoration: none;
+        color: white;
+        padding: 1.5rem;
+        transform: 2ms ease-in;
+        position: relative;
+    }
+    
+    
+    .menu-content .list-itens a:before {
+        content: ' ';
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 0px;
+        height: 1px;
+        background-color: rgb(241, 126, 166);
+        transition: all 1.5s ease; 
+    }
+    
+    .menu-content .list-itens a:hover:before {
+        width: 100%;}
+    
+    
+    .primary-text {
+        width: 850px;
+        font-size: 70px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Taviraj', serif;
+        color: white; 
+        text-shadow: black 0.1em 0.1em 0.2em
+    }
+    
+    .second-text {
+        margin-bottom: 7rem;
+        font-size: 2rem;
+        color: rgb(239, 233, 233);
+        text-transform: uppercase;
+        color: white; 
+        font-family: 'Taviraj', serif;
+        text-shadow: black 0.1em 0.1em 0.2em
+    }
+     
+    main .btns{
+        background-color: transparent;
+        border: none;
+    }
+    
+
+
+
+    .btns img {
+        background-color: transparent;
+        width: 80px;
+        height: 80px;
+        margin-top: 50%;
+       
+       }
+    
+    .btns button {
+        width: 250px;
+        height: 60px;
+        cursor: pointer;
+        border: 1px solid white;
+        color: white;
+        text-decoration-color: rgb(233, 113, 155);
+        text-transform: uppercase;
+        background-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border-radius: 20px;
+        position: relative;
+        transition: 1.5s;
+    }
+    .btns button a { 
+        color: white;
+        text-decoration: none;
+    }
+    
+    .btns button:hover {
+        color: white;
+        border: none;
+    }
+   
+    
+    .btns button:before {
+        content: ' ';
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        width: 0;
+        height: 60px;
+        background-color: transparent;
+        z-index: -1;
+        transition: 1s;
+    }
+    
+    .btns button:hover:before {
+        width: 100%;
+    }
+    .babyclass h3 {
+
+        font-size: 70px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans Regular';
+        color: white; 
+        text-shadow:2px 2px rgb(61, 61, 61)
+    }
+.babyclass h2{
+    margin-bottom: 120px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(239, 233, 233);
+    text-transform: uppercase;
+    color: white; 
+    align-items: center;
+    font-family: 'Lucida Sans Regular';
+    text-shadow:1.5px 1px rgb(61, 61, 61)
+
+}
+
+    .infantil h3 {
+
+        font-size: 70px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans Regular';
+        color: white; 
+        text-shadow:2px 2px rgb(61, 61, 61)
+
+    }
+    .infantil h2{
+        margin-bottom: 120px;
+        font-size: 25px;
+        color: rgb(239, 233, 233);
+        text-transform: uppercase;
+        color: white; 
+        align-items: center;
+        font-family: 'Lucida Sans Regular';
+        text-shadow:1.5px 1px rgb(61, 61, 61);
+        text-align: center;
+    
+    }
+    
+    .juvenil h3 {
+
+        font-size: 70px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans Regular';
+        color: white; 
+        text-shadow:2px 2px rgb(61, 61, 61)
+
+    }
+    .juvenil h2{
+        margin-bottom: 120px;
+        font-size: 25px;
+        color: rgb(239, 233, 233);
+        text-transform: uppercase;
+        color: white; 
+        align-items: center;
+        font-family: 'Lucida Sans Regular';
+        text-shadow:1.5px 1px rgb(61, 61, 61);
+        text-align: center;
+    
+    }
+    
+    .adulto h3 {
+
+        font-size: 70px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans Regular';
+        color: white; 
+        text-shadow:2px 2px rgb(61, 61, 61)
+
+    }
+    .adulto h2{
+        margin-bottom: 120px;
+        font-size: 25px;
+        color: rgb(239, 233, 233);
+        text-transform: uppercase;
+        color: white; 
+        align-items: center;
+        text-align: center;
+        font-family: 'Lucida Sans Regular';
+        text-shadow:1.5px 1px rgb(61, 61, 61)
+    
+    }
+    
+ .babyclass .list-itens {
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(239, 178, 199);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;   
+}
+ .babyclass .list-itens a {
+    text-align: center;
+        font-family: 'Lucida Sans Regular';
+        text-shadow:1.5px 1px rgb(61, 61, 61);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+font-size: 50px;
+}
+.babyclass .btns {
+    background-color: rgba(245, 149, 184, 0.5);
+    border-radius: 20px;
+}
+.infantil .list-itens{
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(239, 178, 199);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;   
+}
+.infantil .list-itens a {text-align: center;
+    font-family: 'Lucida Sans Regular';
+    text-shadow:1.5px 1px rgb(61, 61, 61);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+font-size: 50px;}
+.infantil .list-itens-i{
+    width: 500px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(239, 141, 175);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;   
+}
+.infantil .list-itens-i a {text-align: center;
+    font-family: 'Lucida Sans Regular';
+    text-shadow:1.5px 1px rgb(61, 61, 61);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+font-size: 50px;}
+
+
+.infantil .btns {
+    background-color: rgba(245, 149, 184, 0.5);
+    border-radius: 20px;
+}
+.juvenil .list-itens{
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(239, 178, 199);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;   
+}
+.juvenil .list-itens a {text-align: center;
+    font-family: 'Lucida Sans Regular';
+    text-shadow:1.5px 1px rgb(61, 61, 61);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+font-size: 50px;}
+.juvenil .list-itens-i{
+    width: 500px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(239, 141, 175);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;   
+}
+.juvenil .list-itens-i a {text-align: center;
+    font-family: 'Lucida Sans Regular';
+    text-shadow:1.5px 1px rgb(61, 61, 61);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+font-size: 50px;}
+.juvenil .list-itens-a{
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(234, 77, 132);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;   
+}
+.juvenil .list-itens-a a {text-align: center;
+    font-family: 'Lucida Sans Regular';
+    text-shadow:1.5px 1px rgb(61, 61, 61);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+font-size: 50px;}
+
+
+
+.juvenil .btns {
+    background-color: rgba(245, 149, 184, 0.5);
+    border-radius: 20px;
+}
+.adulto .btns {
+    background-color: rgba(245, 149, 184, 0.5);
+    border-radius: 20px;
+}
+
+.adulto .list-itens {
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(239, 178, 199);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;   
+}
+
+.adulto .list-itens a {text-align: center;
+    font-family: 'Lucida Sans Regular';
+    text-shadow:1.5px 1px rgb(61, 61, 61);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+font-size: 50px;}
+.adulto .list-itens-i{
+    width: 500px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(239, 141, 175);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;   
+}
+.adulto .list-itens-i a {text-align: center;
+    font-family: 'Lucida Sans Regular';
+    text-shadow:1.5px 1px rgb(61, 61, 61);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+font-size: 50px;}
+.adulto .list-itens-a{
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(234, 77, 132);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;   
+}
+.adulto .list-itens-a a {text-align: center;
+    font-family: 'Lucida Sans Regular';
+    text-shadow:1.5px 1px rgb(61, 61, 61);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+font-size: 50px;}
+  .babyclass {
+    padding: 0;
+    margin: 0;
+    height: 150vh;
+    width: 100%;
+    align-items: center;
+    background-image: url(../img/Babyclass.jpg);
+    background-image: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .infantil {
+    padding: 0;
+    margin: 0;
+    height: 150vh;
+    width: 100%;
+    align-items: center;
+    background-image: url(../img/Infantil.jpg);
+    background-image: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } .juvenil {
+    padding: 0;
+    margin: 0;
+    height: 150vh;
+    width: 100%;
+    align-items: center;
+    background-image: url(../img/Juvenil.jpg);
+    background-image: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } .adulto {
+    padding: 0;
+    margin: 0;
+    height: 150vh;
+    width: 100%;
+    align-items: center;
+    background-image: url(../img/adulto.jpg);
+    background-image: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    padding: 0;
+    margin: 0;
+    height: 150vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-image: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
